@@ -1,0 +1,4 @@
+  O sistema de arquivos do Linux segue a hierarquia padrão FHS,
+  suas principais pastas incluem /bin para executáveis, /etc para configurações, 
+/home para usuários, / lib para bibliotecas, /var para dados variáveis. 
+Tal organização facilita a administração e manutenção do sistema.
