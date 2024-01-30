@@ -1,0 +1,15 @@
+import numpy as np
+
+a = np.array([[1,2], [3,4]])
+b = np.array([[5,6]])
+print(b)
+c = np.concatenate((a,b))
+print(c)
+d = np.concatenate((a,b), axis=None)
+print(d)
+e = np.array([1,2,3,4])
+f = np.array([1,2,3,4])
+g = np.hstack((e,f))
+print(g)
+h = np.vstack((e,f))
+print(h)
