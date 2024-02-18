@@ -1,0 +1,39 @@
+1_qual o limite de bytes a serem enviados porpacotesTCP e UDP:
+
+O limite de bytes a serem enviados por pacotes TCP e UDP é determinado pelo MTU 
+(Maximum Transmission Unit) da rede. O MTU representa o tamanho máximo de pacote que pode
+ser transmitido por uma interface de rede sem fragmentação. Para redes Ethernet, que é uma das
+tecnologias de rede mais comuns, o MTU padrão é de 1500 bytes. Isso significa que, 
+teoricamente, o tamanho máximo de dados que podem ser transmitidos em um único pacote TCP
+ou UDP é de 1500 bytes. No entanto, devemos considerar que parte desse espaço é ocupado
+pelos cabeçalhos necessários para encapsular os dados, como o cabeçalho IP, o cabeçalho
+TCP/UDP. Portanto, é recomendável limitar o tamanho dos pacotes TCP/UDP a menos de 1500
+bytes para evitar a fragmentação, especialmente em redes com MTUs menores. Em muitos casos,
+limitamos o tamanho máximo dos pacotes TCP/UDP a cerca de 1460 bytes para garantir que os
+pacotes não sejam fragmentados em redes com MTU de 1500 bytes.
+
+2_como um arquivo grande pode ser transmitido via internet:
+
+Um arquivo grande pode ser transmitido via internet de várias maneiras. Uma abordagem comum é dividir o arquivo em partes menores, conhecidas como pacotes, e enviá-las individualmente. 
+Isso pode ser feito usando protocolos de comunicação como TCP (Transmission Control Protocol) ou UDP (User Datagram Protocol).Com o TCP, os dados são divididos em pacotes e enviados de forma sequencial. 
+O TCP garante a entrega confiável dos dados, reenviando os pacotes perdidos e garantindo que cheguem na ordem correta.
+Isso é útil para arquivos que exigem integridade e precisam ser retransmitidos se houver perda de dados.Já com o UDP, os dados também são divididos em pacotes, mas não há garantia de entrega ou ordem. 
+UDP é mais adequado para aplicações em tempo real, como transmissão de vídeo ou áudio, onde a perda de alguns pacotes não é crítica e a latência é mais importante do que a integridade dos dados.
+Além disso, serviços de compartilhamento de arquivos na nuvem, como Google Drive, Dropbox ou OneDrive, permitem o envio de arquivos grandes através da internet. 
+Esses serviços dividem automaticamente os arquivos grandes em partes menores e os transferem para o servidor, onde podem ser acessados e baixados por outros usuários.
+Portanto, existem várias maneiras de transmitir arquivos grandes via internet, e a escolha da abordagem depende das necessidades específicas do usuário, como confiabilidade, velocidade e prioridade 
+de entrega dos dados.
+
+3_qual a diferença entre as implementações TCP e UDP para esse problema:
+
+As principais diferenças entre as implementações TCP e UDP estão relacionadas à confiabilidade, à ordem de entrega e à sobrecarga de comunicação. O TCP (Transmission Control Protocol) 
+é um protocolo orientado à conexão e oferece um serviço confiável de entrega de dados. Ele garante que os dados sejam entregues na ordem correta e que não sejam perdidos no caminho. 
+Além disso, o TCP possui mecanismos de controle de congestionamento, que ajustam a taxa de transmissão com base na capacidade da rede e na disponibilidade de recursos. 
+Isso faz do TCP uma escolha ideal para a transmissão de arquivos grandes, pois assegura a integridade e a ordem dos dados, mesmo em redes instáveis ou congestionadas.
+Por outro lado, o UDP (User Datagram Protocol) é um protocolo sem conexão e não oferece garantias de entrega de dados. Os pacotes UDP são enviados sem confirmação de recebimento e podem ser perdidos,
+duplicados ou entregues fora de ordem. No entanto, o UDP é mais leve e possui menor sobrecarga de comunicação em comparação com o TCP. Ele é amplamente utilizado em aplicativos de tempo real, 
+como streaming de vídeo ou áudio, onde a latência é mais crítica do que a integridade dos dados. Para transmitir arquivos grandes via UDP, seria necessário implementar mecanismos de controle de erro e
+retransmissão de dados, o que pode complicar o processo e reduzir a eficiência em comparação com o TCP.
+Em resumo, enquanto o TCP é mais adequado para garantir a entrega confiável e ordenada de arquivos grandes, o UDP pode ser usado em cenários onde a velocidade e a latência são mais importantes do que 
+a integridade dos dados.
+
