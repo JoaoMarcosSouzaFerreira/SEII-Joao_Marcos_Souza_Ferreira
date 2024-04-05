@@ -1,0 +1,441 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HashLDash</title>
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="style.css" />
+    
+</head>
+
+<body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="banner">
+        <div class="bannerImg">
+            <center>
+                <img src="images/title.png">
+            </center>
+        </div>
+</div>
+    <div class="numbers">
+        0 1 0 0 0 0 1 0 0 1 1 0 0 1 0 1 0 1 1 0 1 1 0 1 0 0 1 0 0 0 0 0 0 1 1 1 0 1 1 0 0 1 1 0 1 0 0 1 0 1 1 0 1 1 1 0 0 1 1 0 0 1 0 0 0 1 1 0 1 1 1 1 0 0 1 0 0 0 0 0 0 1 1 0 0 0 0 1 0 1 1 0 1 1 1 1 0 0 1 0 0 0 0 0 0 1 1 1 0 0 0 0 0 1 1 0 1 1 1 1 0 1 1 1 0 0 1 0 0 1 1 1 0 1 0 0 0 1 1 0 0 0 0 1 0 1 1 0 1 1 0 0 0 0 1 0 0 0 0 0 0 1 0 0 1 0 0 0 0 1 1 0 0 0 0 1 0 1 1 1 0 0 1 1 0 1 1 0 1 0 0 0 0 1 0 1 0 0 1 1 0 1 1 0 1 1 0 0 0 1 1 0 0 0 0 1 0 1 1 1 0 0 1 1 0 1 1 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 0 0 0 0 1 0 1 0 0 1 1 0 1 1 0 0 1 0 1 0 0 1 0 0 0 0 0 0 1 1 1 0 1 1 0 0 1 1 0 1 1 1 1 0 1 1 0 0 0 1 1 1 1 0 0 0 0 1 1 1 0 1 0 1 0 1 0 0 0 1 0 0 0 0 0 0 1 1 0 0 1 0 0 0 1 1 0 0 1 0 1 0 1 1 0 0 0 1 1 0 1 1 0 1 0 0 1 0 1 1 0 0 1 1 0 0 1 1 1 0 0 1 0 0 1 1 0 1 1 1 1 0 1 1 1 0 1 0 1 0 0 1 0 0 0 0 0 0 1 1 0 0 1 0 1 0 1 1 1 0 0 1 1   0 1 1 1 0 1 0 0   0 1 1 0 0 1 0 1   0 0 1 0 0 0 0 0   0 1 1 1 0 1 0 0   0 1 1 0 0 1 0 1   0 1 1 1 1 0 0 0   0 1 1 1 0 1 0 0   0 1 1 0 1 1 1 1   0 0 1 0 1 1 0 0   0 0 1 0 0 0 0 0   0 1 1 1 0 0 0 0   0 1 1 0 0 0 0 1   0 1 1 1 0 0 1 0   0 1 1 0 0 0 0 1   0 1 1 0 0 0 1 0   1 1 0 0 0 0 1 1   1 0 1 0 1 0 0 1   0 1 1 0 1 1 1 0   0 1 1 1 0 0 1 1   0 0 1 0 0 0 0 1   0 0 1 0 0 0 0 0   0 1 0 0 1 1 0 1   0 1 1 0 0 0 0 1   0 1 1 0 1 1 1 0   0 1 1 0 0 1 0 0   0 1 1 0 0 1 0 1   0 0 1 0 0 0 0 0   0 1 1 1 0 1 0 1   0 1 1 0 1 1 0 1   0 0 1 0 0 0 0 0   0 1 1 0 0 1 0 1  0 1 1 0 1 1 0 1   0 1 1 0 0 0 0 1   0 1 1 0 1 0 0 1   0 1 1 0 1 1 0 0   0 0 1 0 0 0 0 0   0 1 1 1 0 0 0 0  0 1 1 0 0 0 0 1   0 1 1 1 0 0 1 0   0 1 1 0 0 0 0 1   0 0 1 0 0 0 0 0   0 1 1 0 0 1 0 0   0 1 1 0 1 0 0 1   0 1 1 0 0 1 1 1   0 1 1 0 0 0   0 1   0 1 1 0 1 1 0 1   0 1 1 0 0 1 0 1   0 1 1 0 1 1 1 1   0 1 1 1 0 0 0 1   0 1 1 1 0 1 0 1   0 1 1 0 0 1 0 1   0 1 1 1 0 0 0 0   0 1 1 0 0 1 0 1   0 1 1 0 1 1 1 0   0 1 1 1 0 0 1 1   0 1 1 0 0 0 0 1 0 1 1 1 0 0 1 1   0 1 0 0 0 0 0 0   0 1 1 0 0 1 1 1   0 1 1 0 1 1 0 1   0 1 1 0 0 0 0 1   0 1 1 0 1 0 0 1   0 1 1 0 1 1 0 0   0 0 1 0 1 1 1 0   0 1 1 0 0 0 1 1   0 1 1 0 1 1 1 1   0 1 1 0 1 1 0 1   0 0 1 0 0 0 0 0   0 1 1 0 0 1 0 1   0 0 1 0 0 0 0 0   0 1 1 0 0 0 1 1   0 1 1 0 1 1 1 1   0 1 1 0 1 1 1 0   0 1 1 1 0 1 0 0   0 1 1 0 0 1 0 1   0 0 1 0 1 1 0 1   0 1 1 0 1 1 0 1   0 1 1 0 0 1 0 1   0 0 1 0 0 0 0 0   0 1 1 0 0 1 0 1   0 1 1 1 0 0 1 1   0 1 1 1 0 1 0 0   0 1 1 0 0 1 0 1   0 0 1 0 0 0 0 0   0 1 1 0 0 1 1 0   0 1 1 0 0 1 0 1   0 1 1 0 1 0 0 1   0 1 1 1 0 1 0 0   0 1 1 0 1 1 1 1   0 0 1 0 0 0 0 1
+        0 1 0 0 0 0 1 0 0 1 1 0 0 1 0 1 0 1 1 0 1 1 0 1 0 0 1 0 0 0 0 0 0 1 1 1 0 1 1 0 0 1 1 0 1 0 0 1 0 1 1 0 1 1 1 0 0 1 1 0 0 1 0 0 0 1 1 0 1 1 1 1 0 0 1 0 0 0 0 0 0 1 1 0 0 0 0 1 0 1 1 0 1 1 1 1 0 0 1 0 0 0 0 0 0 1 1 1 0 0 0 0 0 1 1 0 1 1 1 1 0 1 1 1 0 0 1 0 0 1 1 1 0 1 0 0 0 1 1 0 0 0 0 1 0 1 1 0 1 1 0 0 0 0 1 0 0 0 0 0 0 1 0 0 1 0 0 0 0 1 1 0 0 0 0 1 0 1 1 1 0 0 1 1 0 1 1 0 1 0 0 0 0 1 0 1 0 0 1 1 0 1 1 0 1 1 0 0 0 1 1 0 0 0 0 1 0 1 1 1 0 0 1 1 0 1 1 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 0 0 0 0 1 0 1 0 0 1 1 0 1 1 0 0 1 0 1 0 0 1 0 0 0 0 0 0 1 1 1 0 1 1 0 0 1 1 0 1 1 1 1 0 1 1 0 0 0 1 1 1 1 0 0 0 0 1 1 1 0 1 0 1 0 1 0 0 0 1 0 0 0 0 0 0 1 1 0 0 1 0 0 0 1 1 0 0 1 0 1 0 1 1 0 0 0 1 1 0 1 1 0 1 0 0 1 0 1 1 0 0 1 1 0 0 1 1 1 0 0 1 0 0 1 1 0 1 1 1 1 0 1 1 1 0 1 0 1 0 0 1 0 0 0 0 0 0 1 1 0 0 1 0 1 0 1 1 1 0 0 1 1   0 1 1 1 0 1 0 0   0 1 1 0 0 1 0 1   0 0 1 0 0 0 0 0   0 1 1 1 0 1 0 0   0 1 1 0 0 1 0 1   0 1 1 1 1 0 0 0   0 1 1 1 0 1 0 0   0 1 1 0 1 1 1 1   0 0 1 0 1 1 0 0   0 0 1 0 0 0 0 0   0 1 1 1 0 0 0 0   0 1 1 0 0 0 0 1   0 1 1 1 0 0 1 0   0 1 1 0 0 0 0 1   0 1 1 0 0 0 1 0   1 1 0 0 0 0 1 1   1 0 1 0 1 0 0 1   0 1 1 0 1 1 1 0   0 1 1 1 0 0 1 1   0 0 1 0 0 0 0 1   0 0 1 0 0 0 0 0   0 1 0 0 1 1 0 1   0 1 1 0 0 0 0 1   0 1 1 0 1 1 1 0   0 1 1 0 0 1 0 0   0 1 1 0 0 1 0 1   0 0 1 0 0 0 0 0   0 1 1 1 0 1 0 1   0 1 1 0 1 1 0 1   0 0 1 0 0 0 0 0   0 1 1 0 0 1 0 1  0 1 1 0 1 1 0 1   0 1 1 0 0 0 0 1   0 1 1 0 1 0 0 1   0 1 1 0 1 1 0 0   0 0 1 0 0 0 0 0   0 1 1 1 0 0 0 0  0 1 1 0 0 0 0 1   0 1 1 1 0 0 1 0   0 1 1 0 0 0 0 1   0 0 1 0 0 0 0 0   0 1 1 0 0 1 0 0   0 1 1 0 1 0 0 1   0 1 1 0 0 1 1 1   0 1 1 0 0 0   0 1   0 1 1 0 1 1 0 1   0 1 1 0 0 1 0 1   0 1 1 0 1 1 1 1   0 1 1 1 0 0 0 1   0 1 1 1 0 1 0 1   0 1 1 0 0 1 0 1   0 1 1 1 0 0 0 0   0 1 1 0 0 1 0 1   0 1 1 0 1 1 1 0   0 1 1 1 0 0 1 1   0 1 1 0 0 0 0 1 0 1 1 1 0 0 1 1   0 1 0 0 0 0 0 0   0 1 1 0 0 1 1 1   0 1 1 0 1 1 0 1   0 1 1 0 0 0 0 1   0 1 1 0 1 0 0 1   0 1 1 0 1 1 0 0   0 0 1 0 1 1 1 0   0 1 1 0 0 0 1 1   0 1 1 0 1 1 1 1   0 1 1 0 1 1 0 1   0 0 1 0 0 0 0 0   0 1 1 0 0 1 0 1   0 0 1 0 0 0 0 0   0 1 1 0 0 0 1 1   0 1 1 0 1 1 1 1   0 1 1 0 1 1 1 0   0 1 1 1 0 1 0 0   0 1 1 0 0 1 0 1   0 0 1 0 1 1 0 1   0 1 1 0 1 1 0 1   0 1 1 0 0 1 0 1   0 0 1 0 0 0 0 0   0 1 1 0 0 1 0 1   0 1 1 1 0 0 1 1   0 1 1 1 0 1 0 0   0 1 1 0 0 1 0 1   0 0 1 0 0 0 0 0   0 1 1 0 0 1 1 0   0 1 1 0 0 1 0 1   0 1 1 0 1 0 0 1   0 1 1 1 0 1 0 0   0 1 1 0 1 1 1 1   0 0 1 0 0 0 0 1
+        0 1 0 0 0 0 1 0 0 1 1 0 0 1 0 1 0 1 1 0 1 1 0 1 0 0 1 0 0 0 0 0 0 1 1 1 0 1 1 0 0 1 1 0 1 0 0 1 0 1 1 0 1 1 1 0 0 1 1 0 0 1 0 0 0 1 1 0 1 1 1 1 0 0 1 0 0 0 0 0 0 1 1 0 0 0 0 1 0 1 1 0 1 1 1 1 0 0 1 0 0 0 0 0 0 1 1 1 0 0 0 0 0 1 1 0 1 1 1 1 0 1 1 1 0 0 1 0 0 1 1 1 0 1 0 0 0 1 1 0 0 0 0 1 0 1 1 0 1 1 0 0 0 0 1 0 0 0 0 0 0 1 0 0 1 0 0 0 0 1 1 0 0 0 0 1 0 1 1 1 0 0 1 1 0 1 1 0 1 0 0 0 0 1 0 1 0 0 1 1 0 1 1 0 1 1 0 0 0 1 1 0 0 0 0 1 0 1 1 1 0 0 1 1 0 1 1 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 0 0 0 0 1 0 1 0 0 1 1 0 1 1 0 0 1 0 1 0 0 1 0 0 0 0 0 0 1 1 1 0 1 1 0 0 1 1 0 1 1 1 1 0 1 1 0 0 0 1 1 1 1 0 0 0 0 1 1 1 0 1 0 1 0 1 0 0 0 1 0 0 0 0 0 0 1 1 0 0 1 0 0 0 1 1 0 0 1 0 1 0 1 1 0 0 0 1 1 0 1 1 0 1 0 0 1 0 1 1 0 0 1 1 0 0 1 1 1 0 0 1 0 0 1 1 0 1 1 1 1 0 1 1 1 0 1 0 1 0 0 1 0 0 0 0 0 0 1 1 0 0 1 0 1 0 1 1 1 0 0 1 1   0 1 1 1 0 1 0 0   0 1 1 0 0 1 0 1   0 0 1 0 0 0 0 0   0 1 1 1 0 1 0 0   0 1 1 0 0 1 0 1   0 1 1 1 1 0 0 0   0 1 1 1 0 1 0 0   0 1 1 0 1 1 1 1   0 0 1 0 1 1 0 0   0 0 1 0 0 0 0 0   0 1 1 1 0 0 0 0   0 1 1 0 0 0 0 1   0 1 1 1 0 0 1 0   0 1 1 0 0 0 0 1   0 1 1 0 0 0 1 0   1 1 0 0 0 0 1 1   1 0 1 0 1 0 0 1   0 1 1 0 1 1 1 0   0 1 1 1 0 0 1 1   0 0 1 0 0 0 0 1   0 0 1 0 0 0 0 0   0 1 0 0 1 1 0 1   0 1 1 0 0 0 0 1   0 1 1 0 1 1 1 0   0 1 1 0 0 1 0 0   0 1 1 0 0 1 0 1   0 0 1 0 0 0 0 0   0 1 1 1 0 1 0 1   0 1 1 0 1 1 0 1   0 0 1 0 0 0 0 0   0 1 1 0 0 1 0 1  0 1 1 0 1 1 0 1   0 1 1 0 0 0 0 1   0 1 1 0 1 0 0 1   0 1 1 0 1 1 0 0   0 0 1 0 0 0 0 0   0 1 1 1 0 0 0 0  0 1 1 0 0 0 0 1   0 1 1 1 0 0 1 0   0 1 1 0 0 0 0 1   0 0 1 0 0 0 0 0   0 1 1 0 0 1 0 0   0 1 1 0 1 0 0 1   0 1 1 0 0 1 1 1   0 1 1 0 0 0   0 1   0 1 1 0 1 1 0 1   0 1 1 0 0 1 0 1   0 1 1 0 1 1 1 1   0 1 1 1 0 0 0 1   0 1 1 1 0 1 0 1   0 1 1 0 0 1 0 1   0 1 1 1 0 0 0 0   0 1 1 0 0 1 0 1   0 1 1 0 1 1 1 0   0 1 1 1 0 0 1 1   0 1 1 0 0 0 0 1 0 1 1 1 0 0 1 1   0 1 0 0 0 0 0 0   0 1 1 0 0 1 1 1   0 1 1 0 1 1 0 1   0 1 1 0 0 0 0 1   0 1 1 0 1 0 0 1   0 1 1 0 1 1 0 0   0 0 1 0 1 1 1 0   0 1 1 0 0 0 1 1   0 1 1 0 1 1 1 1   0 1 1 0 1 1 0 1   0 0 1 0 0 0 0 0   0 1 1 0 0 1 0 1   0 0 1 0 0 0 0 0   0 1 1 0 0 0 1 1   0 1 1 0 1 1 1 1   0 1 1 0 1 1 1 0   0 1 1 1 0 1 0 0   0 1 1 0 0 1 0 1   0 0 1 0 1 1 0 1   0 1 1 0 1 1 0 1   0 1 1 0 0 1 0 1   0 0 1 0 0 0 0 0   0 1 1 0 0 1 0 1   0 1 1 1 0 0 1 1   0 1 1 1 0 1 0 0   0 1 1 0 0 1 0 1   0 0 1 0 0 0 0 0   0 1 1 0 0 1 1 0   0 1 1 0 0 1 0 1   0 1 1 0 1 0 0 1   0 1 1 1 0 1 0 0   0 1 1 0 1 1 1 1   0 0 1 0 0 0 0 1
+
+    </div>
+
+<div class="menu">
+    <a class="menuItem" href="index.html">Notícias</a>
+    <a class="menuItem active" href="cursos.html">Cursos</a>
+    <a class="menuItem" href="contato.html">Contato</a>
+    <a class="menuItem" href="doacao.html">Doação</a>
+</div>
+
+<center>
+
+<div id="app">
+    <a class="googlePlay" href='https://play.google.com/store/apps/details?id=com.crearyx.hashforum&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+        <img class="googlePlay" src="images/hashForum.png">
+        <img class="googlePlay" alt='Disponível no Google Play' src='https://play.google.com/intl/pt-BR/badges/static/images/badges/pt_badge_web_generic.png'/>
+    </a>
+</div>
+
+<div class="thepage">
+    
+    <div class="propLateralEsquerda">
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- propLateral -->
+	<ins class="adsbygoogle"
+	     style="display:block"
+	     data-ad-client="ca-pub-7220446760691137"
+	     data-ad-slot="6308862097"
+	     data-ad-format="auto"
+	     data-full-width-responsive="true"></ins>
+	<script>
+	     (adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- propLateral -->
+	<ins class="adsbygoogle"
+	     style="display:block"
+	     data-ad-client="ca-pub-7220446760691137"
+	     data-ad-slot="6308862097"
+	     data-ad-format="auto"
+	     data-full-width-responsive="true"></ins>
+	<script>
+	     (adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- propLateral -->
+	<ins class="adsbygoogle"
+	     style="display:block"
+	     data-ad-client="ca-pub-7220446760691137"
+	     data-ad-slot="6308862097"
+	     data-ad-format="auto"
+	     data-full-width-responsive="true"></ins>
+	<script>
+	     (adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+    </div>
+
+    <div class="main">
+        <h1> Curso básico de Python </h1>
+        <p> Este curso é indicado para iniciantes na linguagem. O curso cobre desde os tópicos mais básicos até temas mais avançados como interfaces gráficas, aplicativos de celular e interfaces 3D. </p>
+        <p> Confira abaixo as aulas do curso e uma breve descrição do conteúdo abordado em cada aula.</p>
+
+                <a href="https://www.youtube.com/watch?v=BYCxRzsK2KM&list=PLsMpSZTgkF5C_Kkc0XBtM3OVLBsjUkjzy&index=1">
+            <div class="aula">
+                <h3>Introdução ao curso</h3>
+                <div class="content">
+                    <img src="images/va.png">
+                    <p> Nesta aula vamos ver o que será ensinado neste curso e o porquê utilizar a linguagem Python! </p>
+                </div>
+            </div>
+        </a>
+
+
+        <a href="https://www.youtube.com/watch?v=FIaHyxMnKHw&list=PLsMpSZTgkF5C_Kkc0XBtM3OVLBsjUkjzy&index=2">
+            <div class="aula">
+                <h3>Primeiro programa em Python</h3>
+                <div class="content">
+                    <img src="images/va.png">
+                    <p> Nesta aula você vai entender como mandamos as instruções para o computador e como ele as executa. Vai instalar o Python e fazer o seu primeiro programa!! </p>
+                </div>
+            </div>
+        </a>
+
+
+        <a href="https://www.youtube.com/watch?v=2_Ft1_x4yzE&list=PLsMpSZTgkF5C_Kkc0XBtM3OVLBsjUkjzy&index=3">
+            <div class="aula">
+                <h3>Instalação no Windows e primeiro programa</h3>
+                <div class="content">
+                    <img src="images/va.png">
+                    <p> Processo de instalação do Python no Windows e o nosso primeiro programa, Hello World! </p>
+                </div>
+            </div>
+        </a>
+
+
+        <a href="https://www.youtube.com/watch?v=KPL0-g67xZ8&list=PLsMpSZTgkF5C_Kkc0XBtM3OVLBsjUkjzy&index=4">
+            <div class="aula">
+                <h3>Chatbot - Input e concatenação</h3>
+                <div class="content">
+                    <img src="images/va.png">
+                    <p> Esse aula explica as funções input e print e o conceito de concatenação. Esses conceitos são a base para criarmos um chatbot, que é um programa que conversa com o usuário. </p>
+                </div>
+            </div>
+        </a>
+
+
+        <a href="https://www.youtube.com/watch?v=IZ-KyTuUCXU&index=5&list=PLsMpSZTgkF5C_Kkc0XBtM3OVLBsjUkjzy">
+            <div class="aula">
+                <h3>Chatbot - If e else</h3>
+                <div class="content">
+                    <img src="images/va.png">
+                    <p> Vamos aprender sobre as condicionais if e else e como utilizá-las no código do nosso chatbot. </p>
+                </div>
+            </div>
+        </a>
+
+
+        <a href="https://www.youtube.com/watch?v=OVH-mCsP080&index=6&list=PLsMpSZTgkF5C_Kkc0XBtM3OVLBsjUkjzy">
+            <div class="aula">
+                <h3>Chatbot - Slicing in</h3>
+                <div class="content">
+                    <img src="images/va.png">
+                    <p> Vamos aprender sobre a técnica de slicing para selecionarmos partes do conteúdo de uma variável e sobre o operador 'in' </p>
+                </div>
+            </div>
+        </a>
+
+
+        <a href="https://www.youtube.com/watch?v=UQORiDqVmBA&index=7&list=PLsMpSZTgkF5C_Kkc0XBtM3OVLBsjUkjzy">
+            <div class="aula">
+                <h3>Chatbot - While break</h3>
+                <div class="content">
+                    <img src="images/va.png">
+                    <p> Nesta aula vamos aprender sobre repetições de código, começando pela declaração 'while' e pelo comando 'break' </p>
+                </div>
+            </div>
+        </a>
+
+
+        <a href="https://www.youtube.com/watch?v=PCo5X2jfIzg&index=8&list=PLsMpSZTgkF5C_Kkc0XBtM3OVLBsjUkjzy">
+            <div class="aula">
+                <h3>Chatbot - For e lista</h3>
+                <div class="content">
+                    <img src="images/va.png">
+                    <p> Nesta aula vamos aprender sobre outra técnica para repetição de código, que é utilizando a declaração 'for'. Vamos aprender também sobre um tipo de variável no Python chamada 'lista'. </p>
+                </div>
+            </div>
+        </a>
+
+
+        <a href="https://www.youtube.com/watch?v=_41H4L_k6t0&index=9&list=PLsMpSZTgkF5C_Kkc0XBtM3OVLBsjUkjzy">
+            <div class="aula">
+                <h3>Chatbot - Métodos das strings: upper, lower, title e replace</h3>
+                <div class="content">
+                    <img src="images/va.png">
+                    <p> Nesta aula vamos aprender alguns métodos para tratar os textos no Python. Vamos utilizar os métodos upper, lower, title e replace para formatar os textos de entrada do nosso chatbot. </p>
+                </div>
+            </div>
+        </a>
+
+
+        <a href="https://www.youtube.com/watch?v=6am2kOKNvto&index=10&list=PLsMpSZTgkF5C_Kkc0XBtM3OVLBsjUkjzy">
+            <div class="aula">
+                <h3>Chatbot - Como criar funções</h3>
+                <div class="content">
+                    <img src="images/comocriarfuncoes.jpg">
+                    <p> Nesta aula vamos aprender a criar funções. Esta é uma maneira de agrupar certas sequências de código e evitar que você reescreva códigos múltiplas vezes. </p>
+                </div>
+            </div>
+        </a>
+
+
+        <a href="https://www.youtube.com/watch?v=1ywft6oq6so&list=PLsMpSZTgkF5C_Kkc0XBtM3OVLBsjUkjzy&index=11">
+            <div class="aula">
+                <h3>Chatbot - Organização, comentários e import</h3>
+                <div class="content">
+                    <img src="images/organizacaocomentarioseimport.jpg">
+                    <p> Nesta aula vamos aprender a organizar o código para facilitar seu entendimento e futuras modificações. Vamos aprender a comentar o código para explicar certas partes dele e sobre o comando import. </p>
+                </div>
+            </div>
+        </a>
+
+
+        <a href="https://www.youtube.com/watch?v=oOAmgnFFqbQ&index=12&list=PLsMpSZTgkF5C_Kkc0XBtM3OVLBsjUkjzy">
+            <div class="aula">
+                <h3>Chatbot - Classes, self e __init__</h3>
+                <div class="content">
+                    <img src="images/classesselfeinit.jpg">
+                    <p> Nesta aula vamos aprender sobre classes. Vamos também falar sobre o 'self' e o método '__init__' das classes. Vamos também abordar a convenção da nomenclatura dos arquivos. </p>
+                </div>
+            </div>
+        </a>
+
+
+        <a href="https://www.youtube.com/watch?v=gaglV8-ZXY4&list=PLsMpSZTgkF5C_Kkc0XBtM3OVLBsjUkjzy&index=13">
+            <div class="aula">
+                <h3>Chatbot - Transformando o código em classe e utilização</h3>
+                <div class="content">
+                    <img src="images/transformandocodigoemclasse.jpg">
+                    <p> Nesta aula vamos aprender a transformar o código sequencial em classe. Vamos implementar o código da aula anterios como classe e aprender a utilizar esta classe. </p>
+                </div>
+            </div>
+        </a>
+
+
+        <a href="https://www.youtube.com/watch?v=WajMu4JWBeY&list=PLsMpSZTgkF5C_Kkc0XBtM3OVLBsjUkjzy&index=14">
+            <div class="aula">
+                <h3>Chatbot - Criando um arquivo json</h3>
+                <div class="content">
+                    <img src="images/comocriarjson.jpg">
+                    <p> Nesta aula vamos aprender sobre os arquivos 'json' e como salvar variáveis armazenadas do nosso programa em um arquivo permanente. </p>
+                </div>
+            </div>
+        </a>
+
+
+        <a href="https://www.youtube.com/watch?v=IDjPdmDi5G4&list=PLsMpSZTgkF5C_Kkc0XBtM3OVLBsjUkjzy&index=15">
+            <div class="aula">
+                <h3>Chatbot - Try e except</h3>
+                <div class="content">
+                    <img src="images/tryeexcept.jpg">
+                    <p> Nesta aula vamos aprender sobre as declarações 'try' e 'except' no Python. Vamos aprender sobres possíveis erros de execução e como contorná-los. </p>
+                </div>
+            </div>
+        </a>
+
+
+        <a href="https://www.youtube.com/watch?v=UFfcumMl0nw&list=PLsMpSZTgkF5C_Kkc0XBtM3OVLBsjUkjzy&index=16">
+            <div class="aula">
+                <h3>Chatbot - Dicionários</h3>
+                <div class="content">
+                    <img src="images/dicionarios.jpg">
+                    <p> Nesta aula vamos aprender sobre uma nova maneira de armazenar informações no Python, que é utilizando os dicionários. </p>
+                </div>
+            </div>
+        </a>
+
+
+        <a href="pythonNaPratica/pythonEval.html">
+            <div class="aula">
+                <h3>Chatbot - Usando Python em um programa Python!</h3>
+                <div class="content">
+                    <img src="images/pythoneval.jpg">
+                    <p> Nesta aula vamos aprender a deixar nossos programas muito mais úteis, fazendo com que ele execute comandos Python! </p>
+                </div>
+            </div>
+        </a>
+
+
+        <a href="pythonNaPratica/programasExternos.html">
+            <div class="aula">
+                <h3>Chatbot - Como abrir programas e arquivos externos</h3>
+                <div class="content">
+                    <img src="images/programasexternos.jpg">
+                    <p> Neste vídeo ensino como executar programas do sistema operacional e abrir arquivos de extensões diversas com os devidos programas pelo Python. Para isso utilizamos o módulo 'sys' para identificar o sistema operacional, 'os' para executar programas e abrir arquivos no windows e o 'subprocess' no sistema GNU/Linux. </p>
+                </div>
+            </div>
+        </a>
+
+
+        <a href="pythonNaPratica/pacotesExternos.html">
+            <div class="aula">
+                <h3>Telegram Bot - Como instalar pacotes externos</h3>
+                <div class="content">
+                    <img src="images/pacotesexternos.jpg">
+                    <p> Neste vídeo ensino como instalar pacotes externos do Python no sistema GNU/Linux e no Windows. Vamos instalar o pacote 'telepot' para criarmos um bot do telegram, que é um programa de mensagens similar ao WhatsApp. </p>
+                </div>
+            </div>
+        </a>
+
+
+        <a href="pythonNaPratica/recebereEnviarTelegram.html">
+            <div class="aula">
+                <h3>Telegram Bot - Utilizando APIs - Como criar um bot, receber e enviar mensagens com telepot</h3>
+                <div class="content">
+                    <img src="images/recebereenviartelegram.jpg">
+                    <p> Nesta aula vamos aprender a utilizar APIs de pacotes, que é a maneira para utilizar as funções do pacote. Vamos aprender a usar a API do telepot, criar um bot no servidor do telegram e receber e enviar mensagens através da API do telepot. </p>
+                </div>
+            </div>
+        </a>
+
+
+        <a href="pythonNaPratica/atribuicaoMultipla.html">
+            <div class="aula">
+                <h3>Telegram Bot - Atribuição múltipla e argumentos opcionais</h3>
+                <div class="content">
+                    <img src="images/atribuicaomultipla.jpg">
+                    <p> Neste vídeo ensino como integrar a classe de Chatbot ao telegram, como atribuir valores a múltiplas variáveis em uma linha e falo sobre argumentos opcionais nas funções do Python. </p>
+                </div>
+            </div>
+        </a>
+
+
+        <a href="pythonNaPratica/desafioMemoria.html">
+            <div class="aula">
+                <h3>Telegram Bot - Resolução do desafio, implementação da memória e correção de erros</h3>
+                <div class="content">
+                    <img src="images/desafiomemoria.jpg">
+                    <p> Neste vídeo vamos revisar algumas coisas que vimos, tirando dúvidas que algumas pessoas me enviaram. Vamos implementar a memória do chatbot para frases e arrumar alguns bugs do código. Depois mostro como resolver o desafio proposto do vídeo passado, fazendo o comando 'aprende' funcionar do telegram! </p>
+                </div>
+            </div>
+        </a>
+
+
+        <a href="pythonNaPratica/reconhecimentodeFalaWith.html">
+            <div class="aula">
+                <h3>Reconhecimento de fala - With, SpeechRecognition e PocketSphinx</h3>
+                <div class="content">
+                    <img src="images/reconhecimentodefalawith.jpg">
+                    <p> Neste vídeo vamos aprender sobre o 'with' no Python, instalar o 'swig' e os módulos necessários para reconhecimento de fala e implementar um reconhecedor de fala. </p>
+                </div>
+            </div>
+        </a>
+
+
+        <a href="pythonNaPratica/instalarSwig.html">
+            <div class="aula">
+                <h3>Como instalar o SWIG no Windows</h3>
+                <div class="content">
+                    <img src="images/instalarswig.jpg">
+                    <p> Neste vídeo vamos instalar o SWIG no Windows. O SWIG é uma dependência do PocketSphinx, que é utilizado no reconhecimento de fala. </p>
+                </div>
+            </div>
+        </a>
+
+
+        <a href="pythonNaPratica/sintetizacaoeReconhecimentoSetup.html">
+            <div class="aula">
+                <h3>Sintetização e reconhecimento de voz em português - pyttsx, gTTS e setup.py</h3>
+                <div class="content">
+                    <img src="images/sintetizacaoereconhecimentosetup.jpg">
+                    <p> Vamos aprender como transformar um texto em voz e uma voz virar texto em inglês e português. Vamos, também, aprender uma alternativa para instalar módulos do Python sem o PIP. </p>
+                </div>
+            </div>
+        </a>
+
+
+        <a href="pythonNaPratica/herancaePolimorfismo.html">
+            <div class="aula">
+                <h3>Herança e Polimorfismo</h3>
+                <div class="content">
+                    <img src="images/herancaepolimorfismo.jpg">
+                    <p> Vamos aprender o que é herança e polimorfismo e como utilizar estes conceitos para implementar a sintetização de fala do nosso chatbot. </p>
+                </div>
+            </div>
+        </a>
+
+
+        <a href="pythonNaPratica/funcaoSuper.html">
+            <div class="aula">
+                <h3>Super</h3>
+                <div class="content">
+                    <img src="images/funcaosuper.jpg">
+                    <p> Nesta aula vamos aprender sobre a função super do Python. Vamos utilizar ela para reaproveitar o código da classe de chatbots para implementar o nosso BotFalante, que vai reconhecer a nossa voz e falar, além de aprender e executar comandos de voz! </p>
+                </div>
+            </div>
+        </a>
+
+
+
+
+        <div class="fb-comments" data-href="https://hashldash.github.io/Site/" data-numposts="5"></div>
+
+    </div>
+
+    <div class="propLateralDireita">
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- propLateral -->
+	<ins class="adsbygoogle"
+	     style="display:block"
+	     data-ad-client="ca-pub-7220446760691137"
+	     data-ad-slot="6308862097"
+	     data-ad-format="auto"
+	     data-full-width-responsive="true"></ins>
+	<script>
+	     (adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- propLateral -->
+	<ins class="adsbygoogle"
+	     style="display:block"
+	     data-ad-client="ca-pub-7220446760691137"
+	     data-ad-slot="6308862097"
+	     data-ad-format="auto"
+	     data-full-width-responsive="true"></ins>
+	<script>
+	     (adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- propLateral -->
+	<ins class="adsbygoogle"
+	     style="display:block"
+	     data-ad-client="ca-pub-7220446760691137"
+	     data-ad-slot="6308862097"
+	     data-ad-format="auto"
+	     data-full-width-responsive="true"></ins>
+	<script>
+	     (adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+    </div>
+
+</div>
+</center>
+     
+</body>
+
+</html>
