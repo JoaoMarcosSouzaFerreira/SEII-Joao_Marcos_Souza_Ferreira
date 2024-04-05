@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Title</title>
+</head>
+<body>
+	<h1>Get Youtube Thumbnail</h1>
+	<input type="url" name = "link_video"></input>
+	<button>Get it now!</button>
+	<div><img id="thumb" src=""/></div>
+	<script>
+		function getUrlParams(url){
+			const params = new URLSearchParams(url.search);
+			return params;
+		}
+		function getVideoId(urlSearchParams){
+			return urlSearchParams.get("v");
+		}
+		function handleClick(){
+			const inpt = document.querySelector("input");
+			const url = new URL(inpt.value);
+			const id = getVideoId(getUrlParams(url));
+			const thumbnailUrl = `https://i3.ytimg.com/vi/${id}/maxresdefault.jpg`;
+			setImg(thumbnailUrl);
+		}
+		function setImg(src){
+			const img = document.querySelector("img");
+			img.src = src;
+		}
+		function load(){
+			const bt = document.querySelector("button");
+			bt.addEventListener("click", handleClick);
+		}
+		document.addEventListener("DOMContentLoaded", load, false);
+	</script>
+</body>
+</html>
