@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo - Adivinhe o número</title>
+</head>
+<body>
+    <h1>Jogo - Adivinhe o número</h1>
+    <form method="POST" action="/">
+        <label for="guess">Digite um número (entre 1 e 20):</label>
+        <input type="number" id="guess" name="guess" min="1" max="20" required>
+        <button type="submit">Enviar</button>
+    </form>
+    {% if game_result %}
+        <h2>{{ game_result }}</h2>
+    {% endif %}
+</body>
+</html>
